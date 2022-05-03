@@ -42,9 +42,8 @@ body.wrong {
 }
 .btn-grid {
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 10px;
-    margin: 20px 0;
+    grid-template-columns: 200px 200px 200px 200px;
+    margin: 10px 0;
 }
 
 .btn {
@@ -80,6 +79,6 @@ body.wrong {
     align-items: center;
 }
 
-/* .hide {
+.hide {
     display: none;
-} */
+}
