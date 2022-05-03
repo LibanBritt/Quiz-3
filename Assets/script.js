@@ -1,14 +1,14 @@
-const startButton = document.getElementById('start-btn')
-const questionContainerElement = document.getElementById ('question-container')
-const questionElement = document.getElementById('question')
-const answersButtonsElement = document.getElementById('answer-buttons')
+var startButton = document.getElementById('start-btn')
+var questionContainerElement = document.getElementById ('question-container')
+var questionElement = document.getElementById('question')
+var answersButtonsElement = document.getElementById('answer-buttons')
 let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
 
 function startGame() {
     console.log ('start game')
-    startButtonButton.classList.add('hide')
+    startButton.classList.add('hide')
     shuffledQuestions = questions.sort(() => Math.random() - .5)
     currentQuestionIndex = 0
     questionContainerElement.classList.remove('hide')
@@ -27,7 +27,7 @@ function selectAnswer() {
     
 }
 
-const questions = [
+var questions = [
     {
         question: 'Who is the greatest athlete?',
         answers: [
