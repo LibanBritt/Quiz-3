@@ -34,8 +34,6 @@ body.wrong {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
-    height: 400px;
-    max-height: 80%;
 }
 
 #questions {
@@ -45,8 +43,8 @@ body.wrong {
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    gap: 40px;
-    margin: 40px 0;
+    gap: 10px;
+    margin: 20px 0;
 }
 
 .btn {
